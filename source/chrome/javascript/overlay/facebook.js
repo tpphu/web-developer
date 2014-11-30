@@ -6,7 +6,7 @@ WebDeveloper.Overlay.Facebook = WebDeveloper.Overlay.Facebook || {};
 $(function()
 {
   $("#facebook-id-social").append(WebDeveloper.Locales.getString("facebookIdSocial")).on("click", WebDeveloper.Overlay.Facebook.facebookId);
-  $("#facebook-date-time").append(WebDeveloper.Locales.getString("facebookDateTime")).on("click", WebDeveloper.Overlay.Facebook.facebookDatetime);
+  $("#facebook-date-time").append(WebDeveloper.Locales.getString("facebookDateTime")).on("click", WebDeveloper.Overlay.Facebook.facebookDateTime);
 });
 
 // Adds a feature on a tab
@@ -22,7 +22,7 @@ WebDeveloper.Overlay.Facebook.facebookId = function()
 };
 
 // Clears the history
-WebDeveloper.Overlay.Facebook.facebookDatetime = function()
+WebDeveloper.Overlay.Facebook.facebookDateTime = function()
 {
 
 };
