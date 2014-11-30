@@ -5,8 +5,8 @@ WebDeveloper.Overlay.Facebook = WebDeveloper.Overlay.Facebook || {};
 
 $(function()
 {
-  $("#facebook-id").append(WebDeveloper.Locales.getString("facebookId")).on("click", WebDeveloper.Overlay.Facebook.facebookId);
-  $("#facebook-datetime").append(WebDeveloper.Locales.getString("facebookDatetime")).on("click", WebDeveloper.Overlay.Facebook.facebookDatetime);
+  $("#facebook-id-social").append(WebDeveloper.Locales.getString("facebookIdSocial")).on("click", WebDeveloper.Overlay.Facebook.facebookId);
+  $("#facebook-date-time").append(WebDeveloper.Locales.getString("facebookDateTime")).on("click", WebDeveloper.Overlay.Facebook.facebookDatetime);
 });
 
 // Adds a feature on a tab

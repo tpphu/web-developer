@@ -13,6 +13,7 @@ body::-webkit-scrollbar, html::-webkit-scrollbar { display: none; }
 .nav-tabs > li > a { outline-style: none; padding: 3px; }
 .nav-tabs > li > a > span { background: url(images/toolbar.png) no-repeat 0 0; display: inline-block; height: 16px; margin-right: 2px; position: relative; top: 2px; width: 16px; }
 
+#facebook-toolbar > a > span { background-position: -192px 0; }
 #cookies-toolbar > a > span { background-position: -16px 0; }
 #css-toolbar > a > span { background-position: -32px 0; }
 #forms-toolbar > a > span { background-position: -48px 0; }

@@ -79,6 +79,9 @@
   "width": { "message": "Width" },
   "yes": { "message": "Yes" },
 
+  "facebookIdSocial" : { "message": "Id Social" },
+  "facebookDateTime" : { "message": "Date Time" },
+
   "disableJavaScript": { "message": "Disable JavaScript" },
   "disableNotifications": { "message": "Disable Notifications" },
   "disablePlugins": { "message": "Disable Plugins" },
