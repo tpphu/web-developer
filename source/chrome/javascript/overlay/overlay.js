@@ -11,6 +11,7 @@ $(function()
 
   $("#cookies-toolbar > a").append(WebDeveloper.Locales.getString("cookies"));
   $("#css-toolbar > a").append(WebDeveloper.Locales.getString("css"));
+  $("#facebook-toolbar > a").append(WebDeveloper.Locales.getString("facebook"));
   $("#disable-toolbar > a").append(WebDeveloper.Locales.getString("disable"));
   $("#forms-toolbar > a").append(WebDeveloper.Locales.getString("forms"));
   $("#images-toolbar > a").append(WebDeveloper.Locales.getString("images"));

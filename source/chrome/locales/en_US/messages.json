@@ -25,6 +25,7 @@
   "dashboard": { "message": "Dashboard" },
   "delete": { "message": "Delete" },
   "description": { "message": "Description" },
+  "facebook": { "message": "Facebook" },
   "disable": { "message": "Disable" },
   "documents": { "message": "Documents" },
   "dom": { "message": "DOM" },
