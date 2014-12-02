@@ -18,7 +18,18 @@ WebDeveloper.Overlay.Facebook.addFeatureOnTab = function(featureItem, tab, scrip
 // Clears the cache
 WebDeveloper.Overlay.Facebook.facebookId = function()
 {
-  
+  var featureItem = $(this);
+  WebDeveloper.Overlay.getSelectedTab(function(tab)
+  {
+    // If the tab is valid
+    if(WebDeveloper.Overlay.isValidTab(tab))
+    {
+      var feature = featureItem.attr("id");
+      var display = !chrome.extension.getBackgroundPage().WebDeveloper.Storage.isFeatureOnTab(feature, tab);
+
+      WebDeveloper.Overlay.Facebook.toggleFeatureOnTab(featureItem, tab, "WebDeveloper.Facebook.facebookId(" + display + ", [document]);");
+    }
+  });
 };
 
 // Clears the history

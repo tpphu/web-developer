@@ -228,6 +228,11 @@
       <fileset file="../source/chrome/javascript/features/common.js"/>
       <fileset file="../source/common/javascript/features/information.js"/>
     </concat>
+    <concat destfile="${browser}/features/javascript/facebook.js">
+      <fileset file="../source/common/javascript/common/common.js"/>
+      <fileset file="../source/chrome/javascript/features/common.js"/>
+      <fileset file="../source/common/javascript/features/facebook.js"/>
+    </concat>
     <concat destfile="${browser}/features/javascript/miscellaneous.js">
       <fileset file="../source/common/javascript/common/common.js"/>
       <fileset file="../source/chrome/javascript/features/common.js"/>
